@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecommerce</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+
+</head>
+
+<body>
+    <nav class="header">
+        <div class="navdiv">
+            <div class="logo"><img
+                    src="data:image/jpeg;base64,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">
+            </div>
+            <ul>
+                <li><a class="active" href="index.html">home</a></li>
+                <li><a href="shop.html">shop</a></li>
+                <li><a href="aboutus.html">about</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="card.html"><i class="fa-solid fa-bag-shopping"></i></i></a></li>
+
+            </ul>
+        </div>
+
+    </nav>
+    <section id="page-header">
+        
+        <h2>shop now</h2>
+        <p>Discover the perfect blend of luxury
+        </p>
+        
+    </section>
+    <section id="product1" class="section-p1">
+        <h2>Featured produts</h2>
+        <p>new arrival</p>
+        <div class="container1">
+            <div class="pro" onclick="window.location.href='sproduct.html'">
+                <img src="img/pro1.jpeg" alt="">
+                <div class="des">
+                    <span>brandname</span>
+                    <h5>makeup product</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$56</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/pro2.jpeg" alt="">
+                <div class="des">
+                    <span>brandname</span>
+                    <h5>makeup product</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$56</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/pro3.jpeg" alt="">
+                <div class="des">
+                    <span>brandname</span>
+                    <h5>makeup product</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$56</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/pro4.jpeg" alt="">
+                <div class="des">
+                    <span>brandname</span>
+                    <h5>makeup product</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$56</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/pro5.jpeg" alt="">
+                <div class="des">
+                    <span>brandname</span>
+                    <h5>makeup product</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$56</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/pro6.jpeg" alt="">
+                <div class="des">
+                    <span>brandname</span>
+                    <h5>makeup product</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$56</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/pro7.jpeg" alt="">
+                <div class="des">
+                    <span>brandname</span>
+                    <h5>makeup product</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$56</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/pro8.jpeg" alt="">
+                <div class="des">
+                    <span>brandname</span>
+                    <h5>makeup product</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$56</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+        </div>
+    </section>
+    <section id="banner3">
+        <h2>NEW LAUNCHA</h2>
+        <p>new arrival</p>
+        <div class="container2">
+            <div class="pro">
+                <img src="img/card12.png" alt="">
+                <div class="des">
+                    <span>brandname</span>
+                    <h5>makeup product</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$</h4>
+                    <button>explore</button>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="img/card2.png" alt="">
+                <div class="des">
+                    <span>brandname</span>
+                    <h5>makeup product</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$</h4>
+                    <button>explore</button>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="img/card32.png" alt="">
+                <div class="des">
+                    <span>brandname</span>
+                    <h5>makeup product</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$</h4>
+                    <button>explore</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="pagination" class="section-p1">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+
+    </section>
+    <section id="signup">
+        <div class="signtext">
+            <h4>signup to shop</h4>
+            <p>get know about latest <span>deals and offers</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="your email adress">
+            <button class="normal">signup</button>
+        </div>
+
+    </section>    
+    <footer>
+        <div id="contact">
+            <h4>contact</h4>
+            <p><strong>address:</strong>mumbai </p>
+            <p><strong>phone no:</strong>907788 </p>
+            <p><strong>working hours:</strong>8am-9pm</p>
+
+           <div class="follow">
+                <h4>follow us on</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>about us</h4>
+            <a href="#">about us</a>
+            <a href="#">delivery information</a>
+            <a href="#">privacy policy</a>
+            <a href="#">terms ona conditions</a>
+            <a href="#">contact us</a>
+        </div>
+        <div class="col install">
+            <h4>install app</h4>
+            <p>from app store or Google play</p>
+            <div class="row">
+                <img  src="img/googlefix.png" alt="">
+                <img  src="img/apple2.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
